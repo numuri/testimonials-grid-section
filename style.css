@@ -69,9 +69,18 @@ body {
   align-self: center;
 }
 
+.quotation {
+  position: absolute;
+  top: 0;
+  right: 80px;
+  z-index: -1;
+}
+
 .purple__card {
-  background-color: var(--moderateViolet);
   grid-area: purple__card;
+  background-color: var(--moderateViolet);
+  position: relative;
+  z-index: 1;
 }
 
 .grey__card {
